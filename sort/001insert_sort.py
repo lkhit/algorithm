@@ -14,7 +14,7 @@ class Solution(object):
         return A
 
 def main():
-    nums = insert_sort([5,2,3,1,6,4])
+    nums = Solution().insert_sort([5,2,3,1,6,4])
     print nums
 
 if __name__ == "__main__":
