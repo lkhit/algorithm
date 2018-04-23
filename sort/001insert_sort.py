@@ -1,4 +1,4 @@
-class(object):
+class Solution(object):
     def insert_sort(self,nums):
         A = nums
         
@@ -17,5 +17,5 @@ def main():
     nums = insert_sort([5,2,3,1,6,4])
     print nums
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     main()
